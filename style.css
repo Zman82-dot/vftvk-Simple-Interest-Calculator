@@ -19,7 +19,7 @@ h1 {
     border-radius: 25px; 
     align-items: vertical; 
 } 
-.highlight { background-color: yellow; }
+.highlight { background-color:rgb(2, 3, 48); }
 .label { 
     display: inline-block;
     width: 130px;}

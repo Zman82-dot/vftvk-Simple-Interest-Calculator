@@ -8,10 +8,10 @@
 
     </head>
     <body style="background-image:url('https://g.foolcdn.com/editorial/images/515923/getty-stock-market-data.jpg')">
-        <div class = "maindiv">
-            <h1>Simple Interest Calculator</h1>
+        <div class = "maindiv" style="box-shadow:7px 7px 7px 7px  black;">
+            <h1> Interest Calculator</h1>
             <div class="upper">
-                <span class="label"> Amount </span> <input type="number"  id="principal">  <br/>
+                <span class="label"> Amount </span> <input type="number"  id="principal" >  <br/>
                 <span class="label">Interest Rate </span> <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()"> <span id="rate_val">10.25%</span>  <br/>
                 <span class="label">No. of Years </span> <select id="years"> 
                     <option value="1">1</option>
@@ -27,9 +27,11 @@
                 </select> <br/>
                 <button class="btn btn-success" onclick="compute()">Compute Interest</button> <br />
             </div>
-            <div class="lower">
-            <span id="result"></span><br>
+            <div class="card">
+                <div class="card-body" style="background-color:blue;color:whitesmoke; border-radius:10px;box-shadow: 7px 7px 7px black;">
+            <span id="result" style="background-color:blue;color:whitesmoke;"></span><br>
             </div>
+        </div>
             <footer>
                 &#169; This Calculator belongs to Dorian Coleman
             </footer>
